@@ -1,0 +1,19 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Idea: Toned-Down (quite heavily) version of the PC game: Civilization V\
+\
+Functionality: \
+ 	I plan to create a hexagonal-tile board, turn-based, strategy game. The game takes place on a pre-generated board of connected hexagons (see image below). When the game begins, a player is given two starting \'93units\'94, which are placed next to each other in a random location on the board. The first unit is called a \'93warrior\'94. The \'93warrior\'94 is a unit with \'93normal mobility\'94(can move two tiles per turn) and it\'92s a melee unit, meaning it can do damage to non-player units adjacent to it. Both units take damage in this conflict, which is calculated by a given strength of each unit. All units have a set health of 100 and are removed from the game if they reach 0 health.\
+ 	The second unit is called a \'93settler\'94, it has the ability to place \'93cities\'94 on any tile of the board, destroying itself as a unit in the process. The \'93city\'94 created is simply a special tile that can produce more units. I anticipate allowing cities to produce 3 types of units (2 types of \'93warriors\'94 with different strengths and \'93settlers\'94). \
+ 	Units are represented by a collection of circles on a tile, with different colors representing different types of units. Cities are represented by specially colored tiles.\
+	There will be no win-condition or score of any kind. A player will simply be able to move units around the board and produce more units. As an extra, I plan on adding in some extremely basic AI that spawns enemy units randomly around the board to harass cities and units.\
+ \
+Design:\
+	I\'92m going to implement the board by either using a specially formatted 2-dimensional array or a \'93hexagonal\'94 doubly linked list structure. There will be unit, tile, and city objects to store data and functions.\
+\
+Modules:\
+	I\'92ll be using Tkinter for graphics.}
