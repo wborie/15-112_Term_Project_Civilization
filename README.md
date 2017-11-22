@@ -1,7 +1,7 @@
 # 15-112_Term_Project_Civilization
 Final Project for 15-112 CMU course. A basic remake of a video game called Civilization 5, which is a turn-based strategy game played on a grid of hexagonal tiles.
 
-Usage: 
+Usage (through command line): 
 1. Download Term_Project.py and Main_Menu.pgm
 2. Go to download directory
 3. python Term_Project.py
